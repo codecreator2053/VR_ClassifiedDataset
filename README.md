@@ -43,7 +43,7 @@ The annotation result achieved by Type extraction and preprocessing(stage 1)
 
 The VR candidates having Answer as *0* in the parse file are further annotated with AMT and annotation results are presented in the 'AMT' files. The 'AMT' files contain all the above fields with same meaning as above with one minor exception. *Answer* in the 'parse' file indicates the result of annotaion from stage1 but *Answer* in the 'AMT' file indicates result from human annotation. In addition, 'AMT' file has the following fields.
 * **NumberofWorkers**  
-The number of workers that annotated that particuar VR candidate  
+The number of workers that annotated that particular VR candidate  
 (*5 for almost all cases*)
 * **WorkerAnswer**  
 The annotation answer of each worker
